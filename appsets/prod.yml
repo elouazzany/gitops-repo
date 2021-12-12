@@ -23,6 +23,8 @@ spec:
         repoURL: https://github.com/elouazzany/gitops-repo
         targetRevision: main
       syncPolicy:
+        syncOptions:
+        - CreateNamespace=true
         automated:
           prune: true
           selfHeal: true

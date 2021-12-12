@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ./
+    path: appsets
     repoURL: https://github.com/elouazzany/gitops-repo
     targetRevision: main
   syncPolicy:
