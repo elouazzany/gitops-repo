@@ -13,7 +13,7 @@ spec:
   source:
     path: /
     repoURL: https://github.com/elouazzany/gitops-repo
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true

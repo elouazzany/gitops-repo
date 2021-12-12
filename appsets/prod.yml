@@ -9,7 +9,7 @@ spec:
         directories:
           - path: apps/*
         repoURL: https://github.com/elouazzany/gitops-repo
-        revision: master
+        revision: main
   template:
     metadata:
       name: '{{path.basename}}'
@@ -21,7 +21,7 @@ spec:
       source:
         path: '{{path}}//overlays/prod'
         repoURL: https://github.com/elouazzany/gitops-repo
-        targetRevision: master
+        targetRevision: main
       syncPolicy:
         automated:
           prune: true
