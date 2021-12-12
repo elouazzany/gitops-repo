@@ -19,7 +19,7 @@ spec:
         server: https://kubernetes.default.svc
       project: default
       source:
-        path: '{{path}}//overlays/prod'
+        path: '{{path}}/overlays/prod'
         repoURL: https://github.com/elouazzany/gitops-repo
         targetRevision: main
       syncPolicy:

@@ -19,7 +19,7 @@ spec:
         server: https://kubernetes.default.svc
       project: default
       source:
-        path: '{{path}}//overlays/staging'
+        path: '{{path}}/overlays/staging'
         repoURL: https://github.com/elouazzany/gitops-repo
         targetRevision: main
       syncPolicy:
