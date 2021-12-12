@@ -12,7 +12,7 @@ spec:
         revision: main
   template:
     metadata:
-      name: '{{path.basename}}'
+      name: 'prod-{{path.basename}}'
     spec:
       destination:
         namespace: prod
