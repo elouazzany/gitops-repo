@@ -27,7 +27,7 @@ spec:
               memory: "256Mi"
               cpu: "256m"
           volumeMounts:
-          - name: sharedDir
+          - name: shareddir
             mountPath: /usr/share/nginx/html/
       initContainers:
         - name: init-app1
@@ -46,8 +46,8 @@ spec:
               memory: "256Mi"
               cpu: "256m"
           volumeMounts:
-          - name: sharedDir
+          - name: shareddir
             mountPath: /usr/share/nginx/html/
       volumes:
-      - name: sharedDir
+      - name: shareddir
         emptyDir: {}
